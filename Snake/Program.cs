@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Snake
 {
@@ -11,6 +12,12 @@ namespace Snake
 
             Point p2 = new Point(4, 5, '#');
             p2.Draw();
+
+            HorizontalLine line = new HorizontalLine(5, 10, 8, '+');
+            line.Drow();
+
+            VerticalLine line2 = new VerticalLine(2, 8, 15, '/');
+            line2.Drow();
 
             Console.ReadLine();
         }
