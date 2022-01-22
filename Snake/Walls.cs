@@ -40,7 +40,7 @@ namespace Snake
 		{
 			foreach (var wall in wallList)
 			{
-				wall.Drow();
+				wall.Draw();
 			}
 		}
 	}
